@@ -3,7 +3,7 @@
 I'm Vasil, a full-time Junior Manual QA 👨‍💻 with 1-year of experience 🚀</div>  
   
 
-- 🥇Certified ISTQB Foundation Level tester  
+- 🥇Certified ISTQB Foundation Level tester
   
 
 - ⚡ Interested in Automation testing and Coding  
@@ -32,7 +32,7 @@ Additional information:
 
 
 ### Send me a message here:  
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/vasil-yanchevski/" target="_blank">
+<a href="https://linkedin.com/in/vasil-yanchevski/" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>  
 
