@@ -19,6 +19,7 @@ I'm Vasil, a full-time Junior Manual QA 👨‍💻 with 1-year of experience �
 This repository hosts a collection of fundamental automation tests leveraging Selenium WebDriver and Java programming language.
 
 Additional information: 
+* IDE - Intellij IDEA
 * Publicly available demo sites were used
 * Build automation tool - Maven
 * Drivers library - WebDriverManager
