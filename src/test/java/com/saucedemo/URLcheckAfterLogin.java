@@ -12,12 +12,12 @@ public class URLcheckAfterLogin {
     public static void main(String[] args) {
 
 
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
+//
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--remote-allow-origins=*");
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-
-        WebDriver driver = new ChromeDriver(options);
+        WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
@@ -33,7 +33,7 @@ public class URLcheckAfterLogin {
         WebElement loginButton = driver.findElement(By.id("login-button"));
         loginButton.click();
 
-        String expectedTitle = "https://www.saucedemo.com/inventory.html2";
+        String expectedTitle = "https://www.saucedemo.com/inventory.html";
         String actualTitle = driver.getCurrentUrl();
 
         if (expectedTitle.equals(actualTitle)) {

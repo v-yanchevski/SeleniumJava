@@ -12,12 +12,12 @@ public class TitleCheckAfterLogIn {
 
         public static void main(String[] args) {
 
-            WebDriverManager.chromedriver().setup(); // downloads browsers drivers
+//            WebDriverManager.chromedriver().setup();
+//
+//            ChromeOptions options = new ChromeOptions();
+//            options.addArguments("--remote-allow-origins=*");
 
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--remote-allow-origins=*"); // chrome needs this to work
-
-            WebDriver driver = new ChromeDriver(options); // create object named driver
+            WebDriver driver = new ChromeDriver();
 
 
             driver.get("https://www.saucedemo.com/");
