@@ -41,7 +41,7 @@ public class URLcheckAfterLogin {
         } else {
             System.out.println("Test failed. Expected URL is " + expectedTitle + " .Actual URL should be " + actualTitle);
         }
-        driver.quit();
+      driver.quit();
 
     }
 }
